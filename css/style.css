@@ -1,0 +1,63 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #89CACE;
+    font-family: "roboto";
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: -webkit-center;
+}
+
+div {
+    text-align: justify;
+    font-size: 2.7vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    z-index: 0;
+}
+
+
+
+.quadrinhos {
+    display: contents;
+}
+
+.c640 {
+    display: block;
+}
+
+@media (max-width: 640px) {
+
+.c640 {
+display: none;
+}
+
+}
+
+.h1, h1 {
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.figure {
+    margin: 0 0 1rem;
+    display: flex;
+}

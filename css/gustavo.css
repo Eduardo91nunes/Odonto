@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: #89CACE;
+    font-family: "roboto";
+    justify-content: center;
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 39px;
+    font-family: fantasy;
+    text-align: -webkit-center; 
+}
+
+div {
+    text-align: justify;
+    font-size: 2.7vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    z-index: 0;
+}
+
+.text{
+    text-align: center;
+    z-index: 100;
+    
+}
