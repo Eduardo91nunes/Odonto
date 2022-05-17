@@ -1,4 +1,4 @@
-.body {
+.principal {
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -7,7 +7,7 @@
     justify-content: center;
 }
 
-.figure {
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,7 +15,7 @@
 
 }
 
-.h1 {
+.titulo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,36 +24,10 @@
     text-align: -webkit-center;
 }
 
-.div {
+.text {
     text-align: justify;
     font-size: 2.7vh;
     margin-left: 3vw;
     margin-right: 3vw;
     z-index: 0;
-}
-
-.figure hq{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.quadrinhos {
-    display: contents;
-}
-
-.c640 {
-    display: block;
-}
-
-@media (max-width: 640px) {
-
-.c640 {
-display: none;
-}
-
-}
-
-.body [figure] {
-    display: flex;
 }
