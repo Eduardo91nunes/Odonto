@@ -1,0 +1,26 @@
+.titulo1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    
+}
+
+.logo1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.img-fluid1 {
+    max-width: 50%;
+    height: max-content;
+}
+
+.text1g {
+    text-align: justify;
+    font-size: 2.7vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    z-index: 0;
+}
