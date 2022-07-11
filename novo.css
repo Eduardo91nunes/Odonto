@@ -1,4 +1,4 @@
-.principal {
+body {
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -6,27 +6,6 @@
     font-family: "roboto";
     justify-content: center;
     box-sizing: border-box ;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.titulo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: -webkit-center;
-    left: 50%;
-    
-    position: absolute;
-    transform: translate(-50%, -50%);
 }
 
 .text {
@@ -38,9 +17,11 @@
     transform: translate(-50%, -50%);
 }
 
-.text-center{
-
-    width: 5.0vw;
-    height: 2.1vw;
-    align-items: center;
+.text2 {
+    text-align: justify;
+    font-size: 2.7vh;
+    left: 50%;
+    top: 70%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
